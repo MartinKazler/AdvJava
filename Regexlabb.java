@@ -7,7 +7,7 @@ public class RegexLabb {
        String myString1 = "System.out.println( hello33!+ 22 );";
        String myString2 = "if(ab1<=22Bc) { w } else ";
        String myString3 = "for(i=56; i<=h; i++ ) { }";
-       String myString4 = "while()";
+       String myString4 = "while(b = 4 a==5 a<=5  a>=5)";
         String pattern1 = "System\\.out\\.println\\(+(\\s+)?+(([a-zA-Z0-9]+)|([a-zA-Z0-9]+[\\W]+)|(\"[A-Za-z0-9]+[\\W]\"+))?[\\+](\\s+)?([a-zA-Z0-9]+)?(\\s+)?+\\);";
         String pattern2 = "if\\((\\s+)?([a-zA-Z0-9]+)?(\\>|\\<|\\=|\\<+\\=|\\>+\\=)?([a-zA-Z0-9]+)?(\\s+)?\\)(\\s+)?\\{(\\s+)?([\\w]+)?([\\W]+)?\\}(\\s+)?((elseif)|(else))?";
         String pattern3 = "for\\((\\s+)?([a-zA-Z0-9]+)?(\\=)?([a-zA-Z0-9]+)?(\\s+)?(\\;)?(\\s+)?([a-zA-Z0-9]+)?((\\=)|(\\<)|(\\>)|(\\<+\\=)|(\\>+\\=))?(\\s+)?([a-zA-Z0-9]+)?(\\;)?(\\s+)?([a-zA-Z0-9]+)?((\\++\\+)|(\\-+\\-))?(\\s+)\\)(\\s+)(\\{)?(\\s+)?([\\w]+)?([\\W]+)?(\\s+)\\}?";
